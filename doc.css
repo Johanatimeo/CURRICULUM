@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(./img/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.gif {
+    background-image: url(./img/animacion.gif);
+    background-position: center;
+    background-repeat: repeat;
+    width: 100vw;
+    height: 100vh;
+    animation-iteration-count: infinite;
+}
